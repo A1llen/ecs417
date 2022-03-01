@@ -1,0 +1,23 @@
+
+.are1{
+    width: 1528px;
+    height: 365px;
+    background: pink;
+}
+.are2{
+    width: 1528px;
+    height: 365px;
+    background: green;
+}
+.p1{
+    display: inline;
+    font-size: 12pt;
+    font-family: serif;
+    background-color: blue;
+}
+.p2{
+    display: inline;
+    font-size: 14pt;
+    font-family: fantasy;
+    background-color: white;
+}
