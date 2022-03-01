@@ -1,0 +1,76 @@
+header{
+    display: block;
+    color: white;
+    background: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+h2{
+    display: block;
+    background: green;
+    color: white;
+}
+footer{
+    background: green;
+}
+.foot{
+    display: inline-block;
+    background-color: green;
+    color: white;
+    font-style: italic;
+}
+.first li{
+display: inline;
+}
+.first a{
+    line-height: 8%;
+    color: rgb(62, 90, 5);
+    padding: 8% 8%;
+}
+.first{
+    background-color: sandybrown;
+    font-size: 120%;
+}
+.first ul{
+    list-style: none;
+    margin-left: 10%;
+}
+.first1 a{
+    color: rgb(52, 75, 7);
+    font-size: 120%;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+    font-size: 120%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+p{
+    border: solid 5px;
+    border-top-color:red ;
+    border-bottom-color:black ;
+    border-right-color:yellow ;
+    border-left-color:blue ;
+    margin: 1%;
+    padding: 1%;
+}
+.div1{
+    background: skyblue;
+}
+.div2{
+    background: rgb(189, 65, 17);
+}
+.div2 li{
+    list-style: circle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.div3{
+    background: rgb(238, 107, 129);
+}
+.div4{
+    background: rgb(255, 94, 0);
+}
+body{
+    background: orange;
+}
