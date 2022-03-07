@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic4.e4</title>
+    <link rel="stylesheet" href="/style.css" >
+    <link rel="alternate stylesheet" href="/css/reset.css">
+</head>
+<body>
+    <form method="POST" action="http://webprojects.eecs.qmul.ac.uk/un300/week4/week4_process.php"> 
+        <fieldset>
+            <legend>Shirt Order Form</legend>
+            <div class="form1">
+                <p>
+                    <label>Shirt Size</label>
+                    <br /><select name="shirt_size">
+                        <option>Choose size</option>
+                        <option>XS</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Sleeves</label>
+                    <br /><input type="radio" name="sleeves" value="short" checked>short
+                    <input type="radio" name="sleeves" value="long">Long<br />
+                </p>
+                <p>
+                    <label>Choose Shirt Colour</label>
+                    <br /><input type="color" name="color" />
+                </p>
+                <p>
+                    <label>Quantity</label>
+                    <br /><input type="number" min="1" max="10" name="quantity" />
+                </p>
+                <p>
+                    <label>Date Requested</label>
+                    <br /><input type="date" name="date" />
+                </p>
+            </div>
+            <div class="form1">
+                <p>
+                    <label>Name</label>
+                    <br /><input type="text" name="name" required/>
+                </p>
+                <p>
+                    <label>Email address</label>
+                    <br /><input type="email" name="email"/>
+                </p>
+                <p>
+                    <label>Telephone number</label>
+                    <br /><input type="tel" name="telephone" pattern="[4]{2}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
+                    <span class="example">Example: 44-207-882-1234</span>
+                </p>
+            </div>
+            <div class="form1">
+                <p>
+                    <label>Address</label>
+                    <br /><input type="address" name="address"/>
+                </p>
+                <p>
+                    <label>City</label>
+                    <br /><input type="text" name="city" list="cities"/>
+                    <datalist id="cities">
+                        <option>London</option>
+                        <option>Beijing</option>
+                        <option>Manchester</option>
+                        <option>Changzhou</option>
+                    </datalist>
+                </p>
+                <p>
+                    <label>Postcode</label>
+                    <br /><input type="text" name="postcode"/>
+                </p>
+            </div>
+            <div class="submit">
+                <label>Please keep me informed about future shirt designs</label>
+                <input type="checkbox" name="accept"/>
+            </div>
+            <div class="submitbox" style="text-align: center;vertical-align: middle;">
+                <input type="submit" value="Submit" class="rounded">
+                <input type="reset" value="Clear Form" class="rounded">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
